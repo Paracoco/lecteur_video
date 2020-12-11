@@ -9,7 +9,6 @@ body {
     top: 0; left:0;
     width:100vmin;
     height:50vmin;
-    border: solid 1vmin white;
     object-fit:cover;
     transform: translate(60%, 40%);
 
