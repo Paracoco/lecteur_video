@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device,width, inital-scale="1.0">
+    <link rel="stylesheet" href="lecteur_video.css">
+    <title>Lecteur video</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <img class="grass" src="video/grass.jpg">
+        </div>
+        <video src="video/mov_bbb.mp4"  type="video/mp4" class="video" poster="video/Bunny.jpg"></video>
+        <div class="progres">
+            <div class="barre"></div>
+        </div>
+        <div>
+            <button class="button play" alt="">Play</button>
+        </div>
+        <div>
+            <button class="button pause" alt="">Pause</button>
+        </div>
+        <div>
+            <button class="button stop" alt="">Stop</button>
+        </div>
+        <input  id="vol-vontrol" type="range" value="100" min="0" max="100" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)"/>
+    </div>
+    <script src="lecteur_video.js"></script>
+</body>
+</html>

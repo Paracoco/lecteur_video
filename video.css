@@ -1,0 +1,60 @@
+body {
+    background-color: lightblue;
+
+ 
+}
+.video {
+    display: flex;
+    position: absolute;
+    top: 0; left:0;
+    width:100vmin;
+    height:50vmin;
+    border: solid 1vmin white;
+    object-fit:cover;
+    transform: translate(60%, 40%);
+
+}
+
+.progres {
+    position: relative;
+    width: 80vmin;
+    border: solid 1vmin black;
+    border: 1vmin;
+    bottom: 0; left: 0;
+    transform: translate(90%, 150%);
+
+
+}
+
+.barre {
+    position: relative;
+    width: 100%;
+    height: 2vmin;
+    border: green dashed;
+    transform-origin: 0 50%;
+    transition: transform 0.2slinear;
+    transform: translateY(400%)
+
+}
+
+.button  {
+   
+    border: dotted white;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px;
+   
+    
+
+  }
+
+  .grass {
+      position: absolute;
+      width: 100%;
+      height: 350px;
+      transform: translateY(170%);
+  }
